@@ -153,9 +153,11 @@ app_license = "MIT"
 # Overriding Methods
 # ------------------------------
 #
-# override_whitelisted_methods = {
+override_whitelisted_methods = {
 # 	"frappe.desk.doctype.event.event.get_events": "chimmi_garments.event.get_events"
-# }
+"erpnext.controllers.queries.customer_query": "chimmi_garments.chimmi_garments_management.queries.school_query"
+
+}
 #
 # each overriding function accepts a `data` argument;
 # generated from the base implementation of the doctype dashboard,

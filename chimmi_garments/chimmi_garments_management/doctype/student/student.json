@@ -1,0 +1,297 @@
+{
+ "actions": [],
+ "autoname": "format:{school_abbrev}-{class}{section}-{student_name}",
+ "creation": "2024-12-25 16:31:50.777114",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "student_information_section",
+  "student_name",
+  "gender",
+  "class",
+  "phone_number",
+  "school",
+  "address",
+  "school_abbrev",
+  "column_break_mmdnh",
+  "parents_name",
+  "student_id",
+  "section",
+  "email",
+  "measurement",
+  "remarks",
+  "measurement_details_tab",
+  "shirt_measurements_section",
+  "shirt_length",
+  "sleeve_length",
+  "column_break_thcef",
+  "shoulder_length",
+  "chest_size",
+  "pant_measurements_section",
+  "pant_length",
+  "waist_size",
+  "hip_size",
+  "pullover_and_shorts_section",
+  "pullover_size",
+  "cycling_shorts_size",
+  "blazer_measurements_section",
+  "blazer_length",
+  "blazer_sleeve_length",
+  "column_break_6jv43",
+  "blazer_shoulder_length",
+  "blazer_chest_size",
+  "blazer_waist",
+  "section_break_lsgrs",
+  "select_item"
+ ],
+ "fields": [
+  {
+   "fieldname": "student_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Student Name",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "class",
+   "fieldtype": "Select",
+   "in_standard_filter": 1,
+   "label": "Class",
+   "options": "1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12",
+   "reqd": 1
+  },
+  {
+   "fieldname": "section",
+   "fieldtype": "Select",
+   "label": "Section",
+   "options": "\nA\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK",
+   "reqd": 1
+  },
+  {
+   "fieldname": "school",
+   "fieldtype": "Link",
+   "in_standard_filter": 1,
+   "label": "School ",
+   "options": "Customer",
+   "reqd": 1
+  },
+  {
+   "default": "+91",
+   "fieldname": "phone_number",
+   "fieldtype": "Phone",
+   "in_standard_filter": 1,
+   "label": "Phone Number"
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "label": "Email"
+  },
+  {
+   "fieldname": "gender",
+   "fieldtype": "Select",
+   "label": "Gender",
+   "options": "Male\nFemale\nOther",
+   "reqd": 1
+  },
+  {
+   "fieldname": "student_id",
+   "fieldtype": "Data",
+   "label": "Student ID"
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "Small Text",
+   "label": "Address"
+  },
+  {
+   "default": "Not Created",
+   "fieldname": "measurement",
+   "fieldtype": "Select",
+   "label": "Measurement ",
+   "options": "Created\nNot Created"
+  },
+  {
+   "fieldname": "student_information_section",
+   "fieldtype": "Section Break",
+   "label": "Student Information"
+  },
+  {
+   "fieldname": "column_break_mmdnh",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "remarks",
+   "fieldtype": "Small Text",
+   "label": "Remarks"
+  },
+  {
+   "fieldname": "parents_name",
+   "fieldtype": "Data",
+   "label": "Parent's Name"
+  },
+  {
+   "fieldname": "measurement_details_tab",
+   "fieldtype": "Tab Break",
+   "label": "Measurement Details"
+  },
+  {
+   "fieldname": "shirt_measurements_section",
+   "fieldtype": "Section Break",
+   "label": "Shirt Measurements"
+  },
+  {
+   "fieldname": "shirt_length",
+   "fieldtype": "Float",
+   "label": " Shirt length"
+  },
+  {
+   "fieldname": "sleeve_length",
+   "fieldtype": "Float",
+   "label": " Sleeve length"
+  },
+  {
+   "fieldname": "column_break_thcef",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "shoulder_length",
+   "fieldtype": "Float",
+   "label": "Shoulder length"
+  },
+  {
+   "fieldname": "chest_size",
+   "fieldtype": "Float",
+   "label": " Chest size"
+  },
+  {
+   "fieldname": "pant_measurements_section",
+   "fieldtype": "Section Break",
+   "label": "Pant Measurements"
+  },
+  {
+   "fieldname": "pant_length",
+   "fieldtype": "Float",
+   "label": " Pant length"
+  },
+  {
+   "fieldname": "waist_size",
+   "fieldtype": "Float",
+   "label": "Waist size"
+  },
+  {
+   "fieldname": "hip_size",
+   "fieldtype": "Float",
+   "label": " Hip size"
+  },
+  {
+   "fieldname": "pullover_and_shorts_section",
+   "fieldtype": "Section Break",
+   "label": "Pullover and Shorts"
+  },
+  {
+   "fieldname": "pullover_size",
+   "fieldtype": "Float",
+   "label": "Pullover size"
+  },
+  {
+   "fieldname": "cycling_shorts_size",
+   "fieldtype": "Float",
+   "label": " cycling shorts size"
+  },
+  {
+   "fieldname": "blazer_measurements_section",
+   "fieldtype": "Section Break",
+   "label": " Blazer Measurements"
+  },
+  {
+   "fieldname": "blazer_length",
+   "fieldtype": "Float",
+   "label": "Blazer length"
+  },
+  {
+   "fieldname": "blazer_sleeve_length",
+   "fieldtype": "Float",
+   "label": " Blazer sleeve length"
+  },
+  {
+   "fieldname": "column_break_6jv43",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "blazer_shoulder_length",
+   "fieldtype": "Float",
+   "label": "Blazer shoulder length"
+  },
+  {
+   "fieldname": "blazer_chest_size",
+   "fieldtype": "Float",
+   "label": "Blazer chest size"
+  },
+  {
+   "fieldname": "blazer_waist",
+   "fieldtype": "Float",
+   "label": "Blazer waist"
+  },
+  {
+   "fieldname": "section_break_lsgrs",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "select_item",
+   "fieldtype": "Table",
+   "label": "Select item",
+   "options": "Measurement Items"
+  },
+  {
+   "fetch_from": "school.custom__abbreviation",
+   "fieldname": "school_abbrev",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "School Abbrev",
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-02-01 09:49:58.977076",
+ "modified_by": "Administrator",
+ "module": "Chimmi Garments Management",
+ "name": "Student",
+ "name_case": "UPPER CASE",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Chimmi Employee",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

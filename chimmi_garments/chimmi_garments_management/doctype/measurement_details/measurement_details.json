@@ -1,0 +1,242 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-01-14 09:21:59.433946",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "measurements_tab",
+  "shirt_measurements_section",
+  "shirt_length",
+  "sleeve_length",
+  "column_break_nbmhw",
+  "shoulder_length",
+  "chest_size",
+  "pant_measurements_section",
+  "pant_length",
+  "waist_size",
+  "hip_size",
+  "pullover_and_shorts_section",
+  "pullover_size",
+  "cycling_shorts_size",
+  "blazer_measurements_section",
+  "blazer_length",
+  "blazer_sleeve_length",
+  "column_break_anlej",
+  "blazer_shoulder_length",
+  "blazer_chest_size",
+  "blazer_waist",
+  "tab_break_kqkkx",
+  "regular_uniform",
+  "house_uniform",
+  "house_color",
+  "regular_shirt",
+  "column_break_7iiqx",
+  "complete_set",
+  "house_shirt",
+  "track_pant",
+  "frock",
+  "section_break_hkql7",
+  "regular_socks",
+  "white_socks",
+  "column_break_emvvh",
+  "belt",
+  "tie"
+ ],
+ "fields": [
+  {
+   "fieldname": "shirt_length",
+   "fieldtype": "Float",
+   "label": " Shirt length"
+  },
+  {
+   "fieldname": "sleeve_length",
+   "fieldtype": "Float",
+   "label": "Sleeve length"
+  },
+  {
+   "fieldname": "shoulder_length",
+   "fieldtype": "Float",
+   "label": " Shoulder length"
+  },
+  {
+   "fieldname": "chest_size",
+   "fieldtype": "Float",
+   "label": " Chest size"
+  },
+  {
+   "fieldname": "pant_length",
+   "fieldtype": "Float",
+   "label": " Pant length"
+  },
+  {
+   "fieldname": "waist_size",
+   "fieldtype": "Float",
+   "label": "Waist size"
+  },
+  {
+   "fieldname": "hip_size",
+   "fieldtype": "Float",
+   "label": " Hip size"
+  },
+  {
+   "fieldname": "pullover_size",
+   "fieldtype": "Float",
+   "label": " Pullover size"
+  },
+  {
+   "fieldname": "cycling_shorts_size",
+   "fieldtype": "Float",
+   "label": "cycling shorts size"
+  },
+  {
+   "fieldname": "blazer_length",
+   "fieldtype": "Float",
+   "label": "Blazer length"
+  },
+  {
+   "fieldname": "blazer_sleeve_length",
+   "fieldtype": "Float",
+   "label": "Blazer sleeve length"
+  },
+  {
+   "fieldname": "blazer_shoulder_length",
+   "fieldtype": "Float",
+   "label": "Blazer shoulder length"
+  },
+  {
+   "fieldname": "blazer_chest_size",
+   "fieldtype": "Float",
+   "label": "Blazer chest size"
+  },
+  {
+   "fieldname": "blazer_waist",
+   "fieldtype": "Float",
+   "label": "Blazer waist"
+  },
+  {
+   "fieldname": "shirt_measurements_section",
+   "fieldtype": "Section Break",
+   "label": "Shirt Measurements"
+  },
+  {
+   "fieldname": "column_break_nbmhw",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "pant_measurements_section",
+   "fieldtype": "Section Break",
+   "label": "Pant Measurements"
+  },
+  {
+   "fieldname": "pullover_and_shorts_section",
+   "fieldtype": "Section Break",
+   "label": "Pullover and Shorts"
+  },
+  {
+   "fieldname": "blazer_measurements_section",
+   "fieldtype": "Section Break",
+   "label": "Blazer Measurements"
+  },
+  {
+   "fieldname": "column_break_anlej",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "tab_break_kqkkx",
+   "fieldtype": "Tab Break",
+   "label": "Quantity"
+  },
+  {
+   "fieldname": "regular_uniform",
+   "fieldtype": "Int",
+   "label": "Regular Uniform QTY "
+  },
+  {
+   "fieldname": "house_uniform",
+   "fieldtype": "Int",
+   "label": "House Uniform QTY"
+  },
+  {
+   "fieldname": "column_break_7iiqx",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "complete_set",
+   "fieldtype": "Check",
+   "label": "complete set"
+  },
+  {
+   "fieldname": "house_color",
+   "fieldtype": "Data",
+   "label": "House Color QTY"
+  },
+  {
+   "fieldname": "section_break_hkql7",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "regular_shirt",
+   "fieldtype": "Int",
+   "label": "Regular Shirt QTY"
+  },
+  {
+   "fieldname": "house_shirt",
+   "fieldtype": "Int",
+   "label": "House Shirt QTY"
+  },
+  {
+   "fieldname": "track_pant",
+   "fieldtype": "Int",
+   "label": "Track Pant QTY"
+  },
+  {
+   "fieldname": "frock",
+   "fieldtype": "Int",
+   "label": "Frock QTY"
+  },
+  {
+   "fieldname": "regular_socks",
+   "fieldtype": "Int",
+   "label": "Regular socks QTY"
+  },
+  {
+   "fieldname": "white_socks",
+   "fieldtype": "Int",
+   "label": "White socks QTY"
+  },
+  {
+   "fieldname": "column_break_emvvh",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "belt",
+   "fieldtype": "Int",
+   "label": "Belt QTY"
+  },
+  {
+   "fieldname": "tie",
+   "fieldtype": "Int",
+   "label": "Tie QTY"
+  },
+  {
+   "fieldname": "measurements_tab",
+   "fieldtype": "Tab Break",
+   "label": "Measurements"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-01-15 16:49:59.482540",
+ "modified_by": "Administrator",
+ "module": "Chimmi Garments Management",
+ "name": "Measurement Details",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
