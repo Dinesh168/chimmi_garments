@@ -10,7 +10,10 @@ app_license = "MIT"
 
 # include js, css files in header of desk.html
 # app_include_css = "/assets/chimmi_garments/css/chimmi_garments.css"
-# app_include_js = "/assets/chimmi_garments/js/chimmi_garments.js"
+# app_include_js = [
+#     "/assets/chimmi_garments/js/pos_item_cart.js",
+#     "/assets/chimmi_garments/js/pos_item_selector.js"
+# ]
 
 # include js, css files in header of web template
 # web_include_css = "/assets/chimmi_garments/css/chimmi_garments.css"
@@ -24,6 +27,10 @@ app_license = "MIT"
 # webform_include_css = {"doctype": "public/css/doctype.css"}
 
 # include js in page
+# page_js = {
+#     "point-of-sale": "public/js/pos_item_cart.js"
+# }
+
 # page_js = {"page" : "public/js/file.js"}
 
 # include js in doctype views
@@ -155,7 +162,8 @@ app_license = "MIT"
 #
 override_whitelisted_methods = {
 # 	"frappe.desk.doctype.event.event.get_events": "chimmi_garments.event.get_events"
-"erpnext.controllers.queries.customer_query": "chimmi_garments.chimmi_garments_management.queries.school_query"
+"erpnext.controllers.queries.customer_query": "chimmi_garments.custom_code.queries.school_query",
+"erpnext.selling.page.point_of_sale.point_of_sale": "chimmi_garments.custom_code.point_of_sale"
 
 }
 #
